@@ -1,5 +1,9 @@
 package atm;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 import java.util.Map;
 
 /**
@@ -38,4 +42,3 @@ public class Bank {
       return customers.get(id);
    }
 }
-
